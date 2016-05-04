@@ -1,16 +1,16 @@
 using System;
 using System.Collections.Generic;
 
-namespace Entities2
+namespace Snuggly.Entities
 {
-    public partial class LkpPackageType
+    public partial class LkpPackageStatus
     {
-        public LkpPackageType()
+        public LkpPackageStatus()
         {
             Package = new HashSet<Package>();
         }
 
-        public int PackageTypeId { get; set; }
+        public int PackageStatusId { get; set; }
         public string Caption { get; set; }
         public DateTime CreateDate { get; set; }
         public string Description { get; set; }

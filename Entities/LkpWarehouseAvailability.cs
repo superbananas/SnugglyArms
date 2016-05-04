@@ -1,22 +1,22 @@
 using System;
 using System.Collections.Generic;
 
-namespace Entities2
+namespace Snuggly.Entities
 {
-    public partial class LkpPackageStatus
+    public partial class LkpWarehouseAvailability
     {
-        public LkpPackageStatus()
+        public LkpWarehouseAvailability()
         {
-            Package = new HashSet<Package>();
+            Warehouse = new HashSet<Warehouse>();
         }
 
-        public int PackageStatusId { get; set; }
+        public int WarehouseAvailabilityId { get; set; }
         public string Caption { get; set; }
         public DateTime CreateDate { get; set; }
         public string Description { get; set; }
         public string Enumeration { get; set; }
         public DateTime LastModified { get; set; }
 
-        public virtual ICollection<Package> Package { get; set; }
+        public virtual ICollection<Warehouse> Warehouse { get; set; }
     }
 }

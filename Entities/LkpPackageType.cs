@@ -1,22 +1,22 @@
 using System;
 using System.Collections.Generic;
 
-namespace Entities2
+namespace Snuggly.Entities
 {
-    public partial class LkpPickupRelation
+    public partial class LkpPackageType
     {
-        public LkpPickupRelation()
+        public LkpPackageType()
         {
-            AuthorizeToPickup = new HashSet<AuthorizeToPickup>();
+            Package = new HashSet<Package>();
         }
 
-        public int PickupRelationId { get; set; }
+        public int PackageTypeId { get; set; }
         public string Caption { get; set; }
         public DateTime CreateDate { get; set; }
         public string Description { get; set; }
         public string Enumeration { get; set; }
         public DateTime LastModified { get; set; }
 
-        public virtual ICollection<AuthorizeToPickup> AuthorizeToPickup { get; set; }
+        public virtual ICollection<Package> Package { get; set; }
     }
 }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BEE44876-3FEA-4F94-B107-3B4B9BC61FF6}</ProjectGuid>
+    <ProjectGuid>{C9C53079-2903-4A82-9F13-54CA89BC3354}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Snuggly.Entities</RootNamespace>
@@ -103,7 +103,6 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Collections.Concurrent" />
     <Reference Include="System.Collections.Immutable, Version=1.1.36.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Collections.Immutable.1.1.36\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
       <Private>True</Private>
@@ -127,7 +126,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthorizeToPickup.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerPackage.cs" />
+    <Compile Include="LkpPackageStatus.cs" />
+    <Compile Include="LkpPackageType.cs" />
+    <Compile Include="LkpPickupRelation.cs" />
+    <Compile Include="LkpSecondaryUnitType.cs" />
+    <Compile Include="LkpUSState.cs" />
+    <Compile Include="LkpWarehouseAvailability.cs" />
+    <Compile Include="Package.cs" />
+    <Compile Include="PackageNote.cs" />
+    <Compile Include="PackageReturnAddress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SnugglyContext.cs" />
+    <Compile Include="Warehouse.cs" />
+    <Compile Include="WarehouseAddress.cs" />
+    <Compile Include="__RefactorLog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

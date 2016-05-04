@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Entities2
+namespace Snuggly.Entities
 {
     public partial class Package
     {
