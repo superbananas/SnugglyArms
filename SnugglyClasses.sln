@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities.csproj", "{D5B1BD07-7373-4B23-B0DE-30E8B9CEF4C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{C9C53079-2903-4A82-9F13-54CA89BC3354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesUnitTests", "UnitTestProject1\EntitiesUnitTests.csproj", "{783381B4-D909-44D9-AC83-3376AD899148}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities.UnitTests", "Entities.UnitTests\Entities.UnitTests.csproj", "{783381B4-D909-44D9-AC83-3376AD899148}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D5B1BD07-7373-4B23-B0DE-30E8B9CEF4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5B1BD07-7373-4B23-B0DE-30E8B9CEF4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5B1BD07-7373-4B23-B0DE-30E8B9CEF4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5B1BD07-7373-4B23-B0DE-30E8B9CEF4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C53079-2903-4A82-9F13-54CA89BC3354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C53079-2903-4A82-9F13-54CA89BC3354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C53079-2903-4A82-9F13-54CA89BC3354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C53079-2903-4A82-9F13-54CA89BC3354}.Release|Any CPU.Build.0 = Release|Any CPU
 		{783381B4-D909-44D9-AC83-3376AD899148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{783381B4-D909-44D9-AC83-3376AD899148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{783381B4-D909-44D9-AC83-3376AD899148}.Release|Any CPU.ActiveCfg = Release|Any CPU

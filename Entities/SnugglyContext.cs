@@ -1,13 +1,13 @@
 using Microsoft.Data.Entity;
 using Microsoft.Data.Entity.Metadata;
 
-namespace Entities2
+namespace Snuggly.Entities
 {
     public partial class SnugglyContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=.\SqlExpress;Database=Snuggly;Trusted_Connection=True;");
+            options.UseSqlServer(@"Server=.\SQLExpress;Database=Snuggly;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
